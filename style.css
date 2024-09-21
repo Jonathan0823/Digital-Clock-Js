@@ -23,6 +23,9 @@ body{
     color: rgb(141, 184, 232);
     animation: glow 3s infinite;
 }
+#clock:hover{
+    cursor: default;
+}
 
 @keyframes glow {
     0%{
