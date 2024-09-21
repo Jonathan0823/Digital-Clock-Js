@@ -7,4 +7,5 @@ function updateClock(){
     document.getElementById("clock").innerHTML = time;
 }
 
-setInterval(updateClock, 1000)
+updateClock();
+setInterval(updateClock, 1000);
